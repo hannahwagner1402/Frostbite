@@ -1,0 +1,107 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    background: linear-gradient(45deg, #5b66b9, #b4b4da);
+    height: 100%;
+    margin: 0;
+  }
+  
+  #canvas {
+    background-image:url('./assets/background.png');
+  
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+  }
+
+  .start{ 
+    position:fixed;
+    margin-right: 372px;
+    margin-bottom: 5px;
+    height:125px;
+    width: 310px;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .restart{ 
+    position:fixed;
+    margin-right: 372px;
+    margin-bottom: 25px;
+    height:80px;
+    width: 310px;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .home{ 
+    position:fixed;
+    margin-right: 372px;
+    margin-top: 130px;
+    height:90px;
+    width: 310px;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  button{
+    cursor: pointer;
+  }
+
+  #canvasLose{ 
+    background-image: url(assets/death\ screen.png);
+  }
+
+  video{ 
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:0;
+    position: absolute;
+  }
+
+  #homewin{ 
+    position:fixed;
+    margin-left:400px; 
+    margin-bottom: 500px;
+    margin-top:0;
+    height:80px;
+    width: 290px;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  #restartwin{ 
+    position:fixed;
+    margin-left: 400px;
+    margin-top: 130px;
+    height:105px;
+    width: 295px;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  a{ 
+    text-decoration: none;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer; 
+  }
+
+
+
